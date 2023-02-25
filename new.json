@@ -1,0 +1,12 @@
+{
+	"first_name": "Alexandr",
+	"last_name": "Sdobnov",
+	"age": 25,
+	"home_pets": {
+			"name": "Sammy",
+			"age: 2,
+			"name": "Ru",
+			"age": 2
+	},
+	"desired salary": 1500
+}
