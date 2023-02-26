@@ -4,8 +4,8 @@
     "Title": "The system allows to register 2 users with the same e-mail",
     "Severity": "Low",
     "Priority": "High",
-    "CreatedBy": "Alex QA",
-    "AssignedTo": "Kolya Dev",
+    "Created by": "Alex QA",
+    "Assigned to": "Kolya Dev",
     "Status": "Open",
     "Attachment": "link",
     "Environment": "Win10 x64 build 191022, Google Chrome v96.0.433.23 x64",
@@ -24,5 +24,5 @@
     "9. Save"
 },
     "Actual result": "The system allows to register 2 users with the same e-mail",
-    "ExpectedResult": "The error message appears saying 'the user with an e-mal XXX already exists"
+    "Expected result": "The error message appears saying 'the user with an e-mal XXX already exists"
 }
