@@ -1,8 +1,8 @@
 {
-	"first_name": "Alexandr",
-	"last_name": "Sdobnov",
+	"first name": "Alexandr",
+	"last name": "Sdobnov",
 	"age": 25,
-	"home_pets": {
+	"pets": {
 			"name": "Sammy",
 			"age": 2
 	},
