@@ -12,7 +12,7 @@
     "Build": "1.2.12",
 
 "Steps": 
-[
+{
     "1": "Open Users page",	
     "2": "Click Create new",
     "3": "Create User1: enter e-mail1",				
@@ -22,7 +22,7 @@
     "7": "Create User2: enter e-mail1 used for User1",
     "8": "Fill-in the rest of the mandatory data",
     "9": "Save"
-],
+},
     "Actual result": "The system allows to register 2 users with the same e-mail",
     "Expected result": "The error message appears saying 'the user with an e-mal XXX already exists"
 }
