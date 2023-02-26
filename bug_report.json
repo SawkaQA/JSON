@@ -1,21 +1,28 @@
+"Bug report": 
 {
-  "email": "user@mail.com",
-  "pass" : "123qwert",
-  "token" : "AcdkfjBHxhx7webch"
-}
+    "ID": 23,
+    "Title": "The system allows to register 2 users with the same e-mail",
+    "Severity": "Low",
+    "Priority": "High",
+    "CreatedBy": "Alex QA",
+    "AssignedTo": "Kolya Dev",
+    "Status": "Open"
+    "Attachment": "link",
+    "Environment": "Win10 x64 build 191022, Google Chrome v96.0.433.23 x64",
+    "Build": "1.2.12",
 
+  "Steps": 
 {
-  "Location_name": "aq",
-  "Location_id": 3,
-  "Location_type": "web"
-}
-
-{
-  "ID": "321DA",
-  "Title": "When you click on 'Send' button, message does not send",
-  "Severity": "Blocker",
-  "Status": "In progress",
-  "AR": " ",
-  "ER": " ",
-  "Comment": " "
+    "1. Open Users page",	
+    "2. Click Create new",
+    "3. Create User1: enter e-mail1"				
+    "4. Fill-in the rest of the mandatory data"
+    "5. Save"
+    "6. Click Create new"
+    "7. Create User2: enter e-mail1 used for User1"
+    "8. Fill-in the rest of the mandatory data"
+    "9. Save"
+},
+    "Actual result": "The system allows to register 2 users with the same e-mail",
+    "ExpectedResult": "The error message appears saying 'the user with an e-mal XXX already exists"
 }
