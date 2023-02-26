@@ -6,21 +6,21 @@
     "Priority": "High",
     "CreatedBy": "Alex QA",
     "AssignedTo": "Kolya Dev",
-    "Status": "Open"
+    "Status": "Open",
     "Attachment": "link",
     "Environment": "Win10 x64 build 191022, Google Chrome v96.0.433.23 x64",
-    "Build": "1.2.12",
+    "Build": "1.2.12"
 
-  "Steps": 
+"Steps": 
 {
     "1. Open Users page",	
     "2. Click Create new",
-    "3. Create User1: enter e-mail1"				
-    "4. Fill-in the rest of the mandatory data"
-    "5. Save"
-    "6. Click Create new"
-    "7. Create User2: enter e-mail1 used for User1"
-    "8. Fill-in the rest of the mandatory data"
+    "3. Create User1: enter e-mail1",				
+    "4. Fill-in the rest of the mandatory data",
+    "5. Save",
+    "6. Click Create new",
+    "7. Create User2: enter e-mail1 used for User1",
+    "8. Fill-in the rest of the mandatory data",
     "9. Save"
 },
     "Actual result": "The system allows to register 2 users with the same e-mail",
